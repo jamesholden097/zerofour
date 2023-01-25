@@ -1779,34 +1779,7 @@ input, select, textarea {
 		.dropotron li:hover > a, .dropotron li:hover > span {
 			color: #fff;
 		}
-/* Certifications */
-	#certifications{
-		text-align: center;
-		width: 940px;
-		height: auto;
-		margin: 0 auto;
-		overflow: hidden;
-		padding: 9em 0 6em 0;
-		border-radius: 10px;
 
-	}
-		/* Three image containers (use 25% for four, and 50% for two, etc) */
-		#certifications .col {
-			float: left;
-			width: 20.00%;
-			padding: 5px;
-			border-radius: 10px;
-			align-items: center;
-
-			}
-
-		/* Clear floats after image containers */
-		#certifications .lin:after {
-			content: "";
-			clear: both;
-			display: table;
-			align-items: center;
-			}
 /* Banner */
 
 	#banner {
@@ -1831,7 +1804,7 @@ input, select, textarea {
 
 			#banner h2 strong {
 				font-weight: 800;
-				color: inherit;
+				color: white;
 			}
 
 			#banner h2:before {
@@ -1866,6 +1839,14 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0;
 		}
+		#banner .row {
+			display: flex;
+		  }
+		  
+		#banner .column {
+			flex: 20.00%;
+			padding: 5px;
+		  }
 
 /* Sidebar */
 
