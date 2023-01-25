@@ -1839,11 +1839,11 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0;
 		}
-		#banner .row {
+		#banner .rows {
 			display: flex;
 		  }
 		  
-		#banner .column {
+		#banner .columns {
 			flex: 20.00%;
 			padding: 5px;
 		  }
