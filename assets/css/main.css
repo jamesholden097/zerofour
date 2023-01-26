@@ -1553,10 +1553,11 @@ input, select, textarea {
 		width: 6em;
 	}
 
+
+
 	dl.contact dd {
 		margin: 0 0 1em 6em;
 	}
-
 	ul.default {
 		list-style: disc;
 		padding-left: 1em;
@@ -1860,10 +1861,12 @@ input, select, textarea {
 		}
 		#banner .rows {
 			display: flex;
+			background: #ffffff;
+			
 		  }
 		  
 		#banner .columns {
-			flex: 20.00%;
+			width: 20.00%;
 			padding: 5px;
 		  }
 
