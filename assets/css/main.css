@@ -323,7 +323,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 100%;
 		}
 
 		.row > .off-6 {
@@ -1105,6 +1105,8 @@ input, select, textarea {
 
 				.row > .col-12-small {
 					width: 100%;
+					text-align: center;
+					margin: auto;
 				}
 
 				.row > .off-12-small {
@@ -1413,10 +1415,13 @@ input, select, textarea {
 		.image.left {
 			float: left;
 			margin: 0 2em 2em 0;
+			width: 50%;
 		}
 		.image.right {
 			float: right;
 			margin: 0 2em 2em 0;
+			width: 50%;
+
 		}
 
 		.image.centered {
@@ -1538,6 +1543,7 @@ input, select, textarea {
 	dl.contact dt {
 		display: block;
 		text-transform: uppercase;
+		
 		font-weight: 700;
 		letter-spacing: 0.065em;
 		font-size: 0.9em;
@@ -1704,7 +1710,12 @@ input, select, textarea {
 		.icon > .label {
 			display: none;
 		}
+/*Logo*/
+	#logo{
+		float: left;
+		padding: 0 0 0 0.8em;
 
+	}
 /* Nav */
 
 	#nav {
@@ -1876,7 +1887,7 @@ input, select, textarea {
 		position: relative;
 		background-repeat: repeat-x, no-repeat, repeat;
 		background-size: 100% 100%, 100% 15em, auto auto;
-		background-position: top left, top center, top left;
+		background-position: top center, top center, top center;
 		padding: 7em 0 7em 0;
 	}
 
