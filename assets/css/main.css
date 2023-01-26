@@ -1898,7 +1898,9 @@ input, select, textarea {
 			background-size: 100% 15em, 100% 15em, auto auto;
 			background-position: top center, bottom center, top left;
 		}
-
+		.wrapper.style2{
+			position: relative;
+		}
 		.wrapper.style3 {
 			position: relative;
 			text-shadow: 1px 1px 0 #fff;
